@@ -36,7 +36,13 @@ A high-efficiency sidechain ducking and dynamic frequency control system built f
 
 ### 🛠️ Requirements
 - **DAW**: REAPER v7.0 or higher
-- **Plugins**: REAPER native plugins (ReaComp / ReaXcomp)
+### 🔌 Plugin Dependencies
+This template is built with specific third-party processing chains for maximum dynamic isolation. If a plugin is not installed on your system, REAPER will display it as `(OFFLINE)` without breaking the track routing. You can simply active/replace them with your preferred equivalents:
+
+- **AI Vocal Inference**: RVC VST/CLAP Plugin
+- **Gate & Sidechain Detection**: [FabFilter Pro-G](https://www.fabfilter.com/products/pro-g-gate-expander-plug-in) *(Recommended for precise sidechain detection)*
+- **Guitar Processing**: Any Guitar Amp Simulator (e.g., Neural DSP, Amped, Line 6 Helix)
+- **Routing Engine**: REAPER Native 3/4 Auxiliary Busses (No extra download required)
 
 ---
 
@@ -69,4 +75,10 @@ A high-efficiency sidechain ducking and dynamic frequency control system built f
 
 ### 🛠️ 环境要求
 - **DAW**: REAPER v7.0 或更高版本
-- **插件**: REAPER 原生插件 (ReaComp / ReaXcomp)
+### 🔌 插件依赖说明 (Plugin Dependencies)
+为了达到最佳的侧链隔离与动态控制效果，本模板使用了以下第三方效果器链。若您的电脑未安装对应插件，REAPER 会自动将其标记为 `(OFFLINE)`，完全不会破坏已建立好的 3/4 通道路由架构。您可以直接激活或替换为同类插件：
+
+- **AI 人声推理**: RVC VST/CLAP 插件
+- **门限与侧链检测器**: [FabFilter Pro-G](https://www.fabfilter.com/products/pro-g-gate-expander-plug-in) *(推荐使用，用于高精度的侧链信号识别与门限控制)*
+- **吉他效果器**: 任意吉他软效果器/软样 (如 Neural DSP, Amped, Line 6 Helix 等)
+- **底层路由**: REAPER 原生 3/4 辅助总线 (无需额外下载)
